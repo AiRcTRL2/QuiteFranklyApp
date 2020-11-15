@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+inhibit_all_warnings!
+
+def pods
+  pod 'SwiftyJSON'
+  pod 'Alamofire-SwiftyJSON'
+  pod 'Alamofire'
+  pod 'Swifter', :git => "https://github.com/mattdonnelly/Swifter.git", :tag => "2.3.0"
+  pod 'Firebase/Analytics'
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'Firebase/InAppMessaging'
+end
+
+target 'TheQuiteFranklyApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pods
+
+  # Pods for TheQuiteFranklyApp
+
+  target 'QuiteFranklyTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+#  target 'TheQuiteFranklyAppUITests' do
+#    # Pods for testing
+#  end
+
+end

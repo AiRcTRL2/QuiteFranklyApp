@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89751ADE5B868686CD456F65 /* Pods_TheQuiteFranklyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB684F19725B659B1E0070 /* Pods_TheQuiteFranklyApp.framework */; };
+		D5300D8D2435318C0083C208 /* FeedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5300D8C2435318C0083C208 /* FeedNetworkManager.swift */; };
+		D533EEDA244BAC09001A1622 /* YouTubeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533EED9244BAC09001A1622 /* YouTubeWebView.swift */; };
+		D538B57F243FBAE0008C0C54 /* ChatDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D538B57E243FBAE0008C0C54 /* ChatDataController.swift */; };
+		D538B581243FBDA8008C0C54 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D538B580243FBDA8008C0C54 /* ChatMessage.swift */; };
+		D538B583243FC34A008C0C54 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D538B582243FC34A008C0C54 /* ChatView.swift */; };
+		D538B586243FC5BC008C0C54 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D538B585243FC5BC008C0C54 /* DateHelper.swift */; };
+		D545514B2444B2180003C8A6 /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D545514A2444B2180003C8A6 /* PlayerUIView.swift */; };
+		D54B3690244A6106007CFFE3 /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54B368F244A6106007CFFE3 /* SendButton.swift */; };
+		D584ED04243A4D6500A071A0 /* QuiteFranklyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584ED03243A4D6500A071A0 /* QuiteFranklyTests.swift */; };
+		D584ED0C243A664700A071A0 /* TwitterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584ED0B243A664700A071A0 /* TwitterModel.swift */; };
+		D58A3EC0243CE4F4000B5D8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D58A3EBF243CE4F4000B5D8F /* GoogleService-Info.plist */; };
+		D58A3EC3243CE9B2000B5D8F /* ChatPathsAndReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A3EC2243CE9B2000B5D8F /* ChatPathsAndReferences.swift */; };
+		D5E913F6243112EE00396BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E913F5243112EE00396BA2 /* AppDelegate.swift */; };
+		D5E913F8243112EE00396BA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E913F7243112EE00396BA2 /* SceneDelegate.swift */; };
+		D5E913FA243112EE00396BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E913F9243112EE00396BA2 /* ContentView.swift */; };
+		D5E913FC243112EE00396BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E913FB243112EE00396BA2 /* Assets.xcassets */; };
+		D5E913FF243112EE00396BA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E913FE243112EE00396BA2 /* Preview Assets.xcassets */; };
+		D5E91402243112EE00396BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E91400243112EE00396BA2 /* LaunchScreen.storyboard */; };
+		D5E914292431133600396BA2 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E914282431133600396BA2 /* TabBar.swift */; };
+		D5E9142C2431166E00396BA2 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9142B2431166E00396BA2 /* Feed.swift */; };
+		D5E914322431343000396BA2 /* BlogPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E914312431343000396BA2 /* BlogPostView.swift */; };
+		E59090FF92456E0C7AEE5621 /* Pods_QuiteFranklyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434842DA90B58F80015A67D3 /* Pods_QuiteFranklyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D584ED06243A4D6500A071A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E913EA243112EE00396BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E913F1243112EE00396BA2;
+			remoteInfo = TheQuiteFranklyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DEBD291C281BDA56C7DAEDF /* Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests/Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E1ECBA023A680C9BF21891F /* Pods-TheQuiteFranklyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp.release.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp.release.xcconfig"; sourceTree = "<group>"; };
+		2BCB1BF0727BC3EAFE328941 /* Pods-TheQuiteFranklyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyAppTests.release.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyAppTests/Pods-TheQuiteFranklyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		434842DA90B58F80015A67D3 /* Pods_QuiteFranklyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuiteFranklyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBB684F19725B659B1E0070 /* Pods_TheQuiteFranklyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheQuiteFranklyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C49FFC54772AB4CFC6C758 /* Pods_TheQuiteFranklyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheQuiteFranklyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E37EFB375337E580E799440 /* Pods-QuiteFranklyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuiteFranklyTests.release.xcconfig"; path = "Target Support Files/Pods-QuiteFranklyTests/Pods-QuiteFranklyTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EB56C67491CA25395E1D708 /* Pods-TheQuiteFranklyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyAppTests/Pods-TheQuiteFranklyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC398C230376944E524C1BC6 /* Pods-QuiteFranklyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuiteFranklyTests.debug.xcconfig"; path = "Target Support Files/Pods-QuiteFranklyTests/Pods-QuiteFranklyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D094F7087CC787E1BD2B3C2C /* Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests/Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D23D8135EA415B7D4485A617 /* Pods-TheQuiteFranklyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp.debug.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D5300D8C2435318C0083C208 /* FeedNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedNetworkManager.swift; sourceTree = "<group>"; };
+		D533EED9244BAC09001A1622 /* YouTubeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeWebView.swift; sourceTree = "<group>"; };
+		D538B57E243FBAE0008C0C54 /* ChatDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDataController.swift; sourceTree = "<group>"; };
+		D538B580243FBDA8008C0C54 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		D538B582243FC34A008C0C54 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		D538B585243FC5BC008C0C54 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		D545514A2444B2180003C8A6 /* PlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
+		D54B368F244A6106007CFFE3 /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
+		D584ED01243A4D6500A071A0 /* QuiteFranklyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuiteFranklyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D584ED03243A4D6500A071A0 /* QuiteFranklyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiteFranklyTests.swift; sourceTree = "<group>"; };
+		D584ED05243A4D6500A071A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D584ED0B243A664700A071A0 /* TwitterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterModel.swift; sourceTree = "<group>"; };
+		D58A3EBF243CE4F4000B5D8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D58A3EC2243CE9B2000B5D8F /* ChatPathsAndReferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPathsAndReferences.swift; sourceTree = "<group>"; };
+		D5E913F2243112EE00396BA2 /* QuiteFrankly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuiteFrankly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E913F5243112EE00396BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5E913F7243112EE00396BA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5E913F9243112EE00396BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5E913FB243112EE00396BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E913FE243112EE00396BA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5E91401243112EE00396BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5E91403243112EE00396BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E9140C243112EF00396BA2 /* TheQuiteFranklyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheQuiteFranklyAppTests.swift; sourceTree = "<group>"; };
+		D5E9140E243112EF00396BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E91417243112EF00396BA2 /* TheQuiteFranklyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheQuiteFranklyAppUITests.swift; sourceTree = "<group>"; };
+		D5E91419243112EF00396BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E914282431133600396BA2 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		D5E9142B2431166E00396BA2 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		D5E914312431343000396BA2 /* BlogPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostView.swift; sourceTree = "<group>"; };
+		F9D16C2862892A13B2A81324 /* Pods_TheQuiteFranklyApp_TheQuiteFranklyAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheQuiteFranklyApp_TheQuiteFranklyAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D584ECFE243A4D6500A071A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59090FF92456E0C7AEE5621 /* Pods_QuiteFranklyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E913EF243112EE00396BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89751ADE5B868686CD456F65 /* Pods_TheQuiteFranklyApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344A73D58C71E68099F84B73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D23D8135EA415B7D4485A617 /* Pods-TheQuiteFranklyApp.debug.xcconfig */,
+				1E1ECBA023A680C9BF21891F /* Pods-TheQuiteFranklyApp.release.xcconfig */,
+				0DEBD291C281BDA56C7DAEDF /* Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.debug.xcconfig */,
+				D094F7087CC787E1BD2B3C2C /* Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.release.xcconfig */,
+				8EB56C67491CA25395E1D708 /* Pods-TheQuiteFranklyAppTests.debug.xcconfig */,
+				2BCB1BF0727BC3EAFE328941 /* Pods-TheQuiteFranklyAppTests.release.xcconfig */,
+				BC398C230376944E524C1BC6 /* Pods-QuiteFranklyTests.debug.xcconfig */,
+				8E37EFB375337E580E799440 /* Pods-QuiteFranklyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D538B584243FC5AE008C0C54 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D538B585243FC5BC008C0C54 /* DateHelper.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		D584ED02243A4D6500A071A0 /* QuiteFranklyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D584ED03243A4D6500A071A0 /* QuiteFranklyTests.swift */,
+				D584ED05243A4D6500A071A0 /* Info.plist */,
+			);
+			path = QuiteFranklyTests;
+			sourceTree = "<group>";
+		};
+		D58A3EC1243CE98A000B5D8F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D538B582243FC34A008C0C54 /* ChatView.swift */,
+				D54B368F244A6106007CFFE3 /* SendButton.swift */,
+				D545514A2444B2180003C8A6 /* PlayerUIView.swift */,
+				D58A3EC2243CE9B2000B5D8F /* ChatPathsAndReferences.swift */,
+				D538B57E243FBAE0008C0C54 /* ChatDataController.swift */,
+				D538B580243FBDA8008C0C54 /* ChatMessage.swift */,
+				D533EED9244BAC09001A1622 /* YouTubeWebView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		D5E913E9243112EE00396BA2 = {
+			isa = PBXGroup;
+			children = (
+				D5E913F4243112EE00396BA2 /* TheQuiteFranklyApp */,
+				D5E9140B243112EF00396BA2 /* TheQuiteFranklyAppTests */,
+				D5E91416243112EF00396BA2 /* TheQuiteFranklyAppUITests */,
+				D584ED02243A4D6500A071A0 /* QuiteFranklyTests */,
+				D5E913F3243112EE00396BA2 /* Products */,
+				E208D4174F00FA1DBE1ED11B /* Frameworks */,
+				344A73D58C71E68099F84B73 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E913F3243112EE00396BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E913F2243112EE00396BA2 /* QuiteFrankly.app */,
+				D584ED01243A4D6500A071A0 /* QuiteFranklyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E913F4243112EE00396BA2 /* TheQuiteFranklyApp */ = {
+			isa = PBXGroup;
+			children = (
+				D538B584243FC5AE008C0C54 /* HelperClasses */,
+				D58A3EC1243CE98A000B5D8F /* Chat */,
+				D5E91430243133F300396BA2 /* Blog */,
+				D5E9142A2431162200396BA2 /* Feed */,
+				D5E914252431130600396BA2 /* TabView */,
+				D5E913F9243112EE00396BA2 /* ContentView.swift */,
+				D5E913F5243112EE00396BA2 /* AppDelegate.swift */,
+				D5E913F7243112EE00396BA2 /* SceneDelegate.swift */,
+				D5E91400243112EE00396BA2 /* LaunchScreen.storyboard */,
+				D5E913FD243112EE00396BA2 /* Preview Content */,
+				D5E913FB243112EE00396BA2 /* Assets.xcassets */,
+				D5E91403243112EE00396BA2 /* Info.plist */,
+				D58A3EBF243CE4F4000B5D8F /* GoogleService-Info.plist */,
+			);
+			path = TheQuiteFranklyApp;
+			sourceTree = "<group>";
+		};
+		D5E913FD243112EE00396BA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5E913FE243112EE00396BA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5E9140B243112EF00396BA2 /* TheQuiteFranklyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9140C243112EF00396BA2 /* TheQuiteFranklyAppTests.swift */,
+				D5E9140E243112EF00396BA2 /* Info.plist */,
+			);
+			path = TheQuiteFranklyAppTests;
+			sourceTree = "<group>";
+		};
+		D5E91416243112EF00396BA2 /* TheQuiteFranklyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E91417243112EF00396BA2 /* TheQuiteFranklyAppUITests.swift */,
+				D5E91419243112EF00396BA2 /* Info.plist */,
+			);
+			path = TheQuiteFranklyAppUITests;
+			sourceTree = "<group>";
+		};
+		D5E914252431130600396BA2 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				D5E914282431133600396BA2 /* TabBar.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		D5E9142A2431162200396BA2 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				D5300D8C2435318C0083C208 /* FeedNetworkManager.swift */,
+				D5E9142B2431166E00396BA2 /* Feed.swift */,
+				D584ED0B243A664700A071A0 /* TwitterModel.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		D5E91430243133F300396BA2 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				D5E914312431343000396BA2 /* BlogPostView.swift */,
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
+		E208D4174F00FA1DBE1ED11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB684F19725B659B1E0070 /* Pods_TheQuiteFranklyApp.framework */,
+				F9D16C2862892A13B2A81324 /* Pods_TheQuiteFranklyApp_TheQuiteFranklyAppUITests.framework */,
+				53C49FFC54772AB4CFC6C758 /* Pods_TheQuiteFranklyAppTests.framework */,
+				434842DA90B58F80015A67D3 /* Pods_QuiteFranklyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D584ED00243A4D6500A071A0 /* QuiteFranklyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D584ED08243A4D6500A071A0 /* Build configuration list for PBXNativeTarget "QuiteFranklyTests" */;
+			buildPhases = (
+				396444BC8AC85006D9946354 /* [CP] Check Pods Manifest.lock */,
+				D584ECFD243A4D6500A071A0 /* Sources */,
+				D584ECFE243A4D6500A071A0 /* Frameworks */,
+				D584ECFF243A4D6500A071A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D584ED07243A4D6500A071A0 /* PBXTargetDependency */,
+			);
+			name = QuiteFranklyTests;
+			productName = QuiteFranklyTests;
+			productReference = D584ED01243A4D6500A071A0 /* QuiteFranklyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5E913F1243112EE00396BA2 /* TheQuiteFranklyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E9141C243112EF00396BA2 /* Build configuration list for PBXNativeTarget "TheQuiteFranklyApp" */;
+			buildPhases = (
+				D631F1FB80671BCF4EA1C388 /* [CP] Check Pods Manifest.lock */,
+				D5E913EE243112EE00396BA2 /* Sources */,
+				D5E913EF243112EE00396BA2 /* Frameworks */,
+				D5E913F0243112EE00396BA2 /* Resources */,
+				450038EBE0156A470FA8F314 /* [CP] Embed Pods Frameworks */,
+				1AB45BB1F7CBADE3E7EB83F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheQuiteFranklyApp;
+			productName = TheQuiteFranklyApp;
+			productReference = D5E913F2243112EE00396BA2 /* QuiteFrankly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E913EA243112EE00396BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rebellion Media";
+				TargetAttributes = {
+					D584ED00243A4D6500A071A0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D5E913F1243112EE00396BA2;
+					};
+					D5E913F1243112EE00396BA2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D5E913ED243112EE00396BA2 /* Build configuration list for PBXProject "TheQuiteFranklyApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E913E9243112EE00396BA2;
+			productRefGroup = D5E913F3243112EE00396BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E913F1243112EE00396BA2 /* TheQuiteFranklyApp */,
+				D584ED00243A4D6500A071A0 /* QuiteFranklyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D584ECFF243A4D6500A071A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E913F0243112EE00396BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E91402243112EE00396BA2 /* LaunchScreen.storyboard in Resources */,
+				D58A3EC0243CE4F4000B5D8F /* GoogleService-Info.plist in Resources */,
+				D5E913FF243112EE00396BA2 /* Preview Assets.xcassets in Resources */,
+				D5E913FC243112EE00396BA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AB45BB1F7CBADE3E7EB83F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		396444BC8AC85006D9946354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuiteFranklyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		450038EBE0156A470FA8F314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D631F1FB80671BCF4EA1C388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheQuiteFranklyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D584ECFD243A4D6500A071A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D584ED04243A4D6500A071A0 /* QuiteFranklyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E913EE243112EE00396BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E913F6243112EE00396BA2 /* AppDelegate.swift in Sources */,
+				D584ED0C243A664700A071A0 /* TwitterModel.swift in Sources */,
+				D538B57F243FBAE0008C0C54 /* ChatDataController.swift in Sources */,
+				D5E9142C2431166E00396BA2 /* Feed.swift in Sources */,
+				D538B583243FC34A008C0C54 /* ChatView.swift in Sources */,
+				D533EEDA244BAC09001A1622 /* YouTubeWebView.swift in Sources */,
+				D5E913F8243112EE00396BA2 /* SceneDelegate.swift in Sources */,
+				D538B581243FBDA8008C0C54 /* ChatMessage.swift in Sources */,
+				D5E914292431133600396BA2 /* TabBar.swift in Sources */,
+				D538B586243FC5BC008C0C54 /* DateHelper.swift in Sources */,
+				D5E914322431343000396BA2 /* BlogPostView.swift in Sources */,
+				D545514B2444B2180003C8A6 /* PlayerUIView.swift in Sources */,
+				D58A3EC3243CE9B2000B5D8F /* ChatPathsAndReferences.swift in Sources */,
+				D54B3690244A6106007CFFE3 /* SendButton.swift in Sources */,
+				D5300D8D2435318C0083C208 /* FeedNetworkManager.swift in Sources */,
+				D5E913FA243112EE00396BA2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D584ED07243A4D6500A071A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E913F1243112EE00396BA2 /* TheQuiteFranklyApp */;
+			targetProxy = D584ED06243A4D6500A071A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5E91400243112EE00396BA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E91401243112EE00396BA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D584ED09243A4D6500A071A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC398C230376944E524C1BC6 /* Pods-QuiteFranklyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAF3X77NPN;
+				INFOPLIST_FILE = QuiteFranklyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RebellionMedia.QuiteFranklyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuiteFrankly.app/QuiteFrankly";
+			};
+			name = Debug;
+		};
+		D584ED0A243A4D6500A071A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E37EFB375337E580E799440 /* Pods-QuiteFranklyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAF3X77NPN;
+				INFOPLIST_FILE = QuiteFranklyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RebellionMedia.QuiteFranklyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuiteFrankly.app/QuiteFrankly";
+			};
+			name = Release;
+		};
+		D5E9141A243112EF00396BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E9141B243112EF00396BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E9141D243112EF00396BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23D8135EA415B7D4485A617 /* Pods-TheQuiteFranklyApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TheQuiteFranklyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KAF3X77NPN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TheQuiteFranklyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RebellionMedia.TheQuiteFranklyApp;
+				PRODUCT_NAME = QuiteFrankly;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				UIUserInterfaceStyle = Dark;
+			};
+			name = Debug;
+		};
+		D5E9141E243112EF00396BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1ECBA023A680C9BF21891F /* Pods-TheQuiteFranklyApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TheQuiteFranklyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KAF3X77NPN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TheQuiteFranklyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RebellionMedia.TheQuiteFranklyApp;
+				PRODUCT_NAME = QuiteFrankly;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				UIUserInterfaceStyle = Dark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D584ED08243A4D6500A071A0 /* Build configuration list for PBXNativeTarget "QuiteFranklyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D584ED09243A4D6500A071A0 /* Debug */,
+				D584ED0A243A4D6500A071A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E913ED243112EE00396BA2 /* Build configuration list for PBXProject "TheQuiteFranklyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E9141A243112EF00396BA2 /* Debug */,
+				D5E9141B243112EF00396BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E9141C243112EF00396BA2 /* Build configuration list for PBXNativeTarget "TheQuiteFranklyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E9141D243112EF00396BA2 /* Debug */,
+				D5E9141E243112EF00396BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E913EA243112EE00396BA2 /* Project object */;
+}
