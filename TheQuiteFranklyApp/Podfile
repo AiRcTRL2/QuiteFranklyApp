@@ -5,7 +5,6 @@ inhibit_all_warnings!
 
 def pods
   pod 'SwiftyJSON'
-  pod 'Alamofire-SwiftyJSON'
   pod 'Alamofire'
   pod 'Swifter', :git => "https://github.com/mattdonnelly/Swifter.git", :tag => "2.3.0"
   pod 'Firebase/Analytics'

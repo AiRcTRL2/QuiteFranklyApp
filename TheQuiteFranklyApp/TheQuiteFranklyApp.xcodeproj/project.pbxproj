@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89751ADE5B868686CD456F65 /* Pods_TheQuiteFranklyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB684F19725B659B1E0070 /* Pods_TheQuiteFranklyApp.framework */; };
+		7E973326C6B38D1DB79416F7 /* Pods_QuiteFranklyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90F438B53DFE985C568FE8C /* Pods_QuiteFranklyTests.framework */; };
 		D5300D8D2435318C0083C208 /* FeedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5300D8C2435318C0083C208 /* FeedNetworkManager.swift */; };
 		D533EEDA244BAC09001A1622 /* YouTubeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533EED9244BAC09001A1622 /* YouTubeWebView.swift */; };
 		D538B57F243FBAE0008C0C54 /* ChatDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D538B57E243FBAE0008C0C54 /* ChatDataController.swift */; };
@@ -29,7 +29,7 @@
 		D5E914292431133600396BA2 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E914282431133600396BA2 /* TabBar.swift */; };
 		D5E9142C2431166E00396BA2 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9142B2431166E00396BA2 /* Feed.swift */; };
 		D5E914322431343000396BA2 /* BlogPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E914312431343000396BA2 /* BlogPostView.swift */; };
-		E59090FF92456E0C7AEE5621 /* Pods_QuiteFranklyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434842DA90B58F80015A67D3 /* Pods_QuiteFranklyTests.framework */; };
+		DA8F6F07B1F21E5815BC5DFA /* Pods_TheQuiteFranklyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D715932518379D6C289FC0 /* Pods_TheQuiteFranklyApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,17 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DEBD291C281BDA56C7DAEDF /* Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests/Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1E1ECBA023A680C9BF21891F /* Pods-TheQuiteFranklyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp.release.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp.release.xcconfig"; sourceTree = "<group>"; };
-		2BCB1BF0727BC3EAFE328941 /* Pods-TheQuiteFranklyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyAppTests.release.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyAppTests/Pods-TheQuiteFranklyAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		434842DA90B58F80015A67D3 /* Pods_QuiteFranklyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuiteFranklyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CBB684F19725B659B1E0070 /* Pods_TheQuiteFranklyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheQuiteFranklyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53C49FFC54772AB4CFC6C758 /* Pods_TheQuiteFranklyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheQuiteFranklyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E37EFB375337E580E799440 /* Pods-QuiteFranklyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuiteFranklyTests.release.xcconfig"; path = "Target Support Files/Pods-QuiteFranklyTests/Pods-QuiteFranklyTests.release.xcconfig"; sourceTree = "<group>"; };
-		8EB56C67491CA25395E1D708 /* Pods-TheQuiteFranklyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyAppTests/Pods-TheQuiteFranklyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC398C230376944E524C1BC6 /* Pods-QuiteFranklyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuiteFranklyTests.debug.xcconfig"; path = "Target Support Files/Pods-QuiteFranklyTests/Pods-QuiteFranklyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D094F7087CC787E1BD2B3C2C /* Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests/Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D23D8135EA415B7D4485A617 /* Pods-TheQuiteFranklyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp.debug.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3D18E0B3AD84E2C0310881AB /* Pods-TheQuiteFranklyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp.release.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp.release.xcconfig"; sourceTree = "<group>"; };
+		5EB9C5190B4EAF2610E08645 /* Pods-QuiteFranklyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuiteFranklyTests.debug.xcconfig"; path = "Target Support Files/Pods-QuiteFranklyTests/Pods-QuiteFranklyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B90F438B53DFE985C568FE8C /* Pods_QuiteFranklyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuiteFranklyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFCC6D664BDD3D783E4F214 /* Pods-QuiteFranklyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuiteFranklyTests.release.xcconfig"; path = "Target Support Files/Pods-QuiteFranklyTests/Pods-QuiteFranklyTests.release.xcconfig"; sourceTree = "<group>"; };
 		D5300D8C2435318C0083C208 /* FeedNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedNetworkManager.swift; sourceTree = "<group>"; };
 		D533EED9244BAC09001A1622 /* YouTubeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeWebView.swift; sourceTree = "<group>"; };
 		D538B57E243FBAE0008C0C54 /* ChatDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDataController.swift; sourceTree = "<group>"; };
@@ -68,6 +61,7 @@
 		D584ED0B243A664700A071A0 /* TwitterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterModel.swift; sourceTree = "<group>"; };
 		D58A3EBF243CE4F4000B5D8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D58A3EC2243CE9B2000B5D8F /* ChatPathsAndReferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPathsAndReferences.swift; sourceTree = "<group>"; };
+		D5D715932518379D6C289FC0 /* Pods_TheQuiteFranklyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheQuiteFranklyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E913F2243112EE00396BA2 /* QuiteFrankly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuiteFrankly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E913F5243112EE00396BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5E913F7243112EE00396BA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,7 +77,7 @@
 		D5E914282431133600396BA2 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		D5E9142B2431166E00396BA2 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		D5E914312431343000396BA2 /* BlogPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostView.swift; sourceTree = "<group>"; };
-		F9D16C2862892A13B2A81324 /* Pods_TheQuiteFranklyApp_TheQuiteFranklyAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheQuiteFranklyApp_TheQuiteFranklyAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBED5491627A9F35E5BDE40 /* Pods-TheQuiteFranklyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheQuiteFranklyApp.debug.xcconfig"; path = "Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E59090FF92456E0C7AEE5621 /* Pods_QuiteFranklyTests.framework in Frameworks */,
+				7E973326C6B38D1DB79416F7 /* Pods_QuiteFranklyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,24 +93,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89751ADE5B868686CD456F65 /* Pods_TheQuiteFranklyApp.framework in Frameworks */,
+				DA8F6F07B1F21E5815BC5DFA /* Pods_TheQuiteFranklyApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		204D99B97E807CBAD571900F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90F438B53DFE985C568FE8C /* Pods_QuiteFranklyTests.framework */,
+				D5D715932518379D6C289FC0 /* Pods_TheQuiteFranklyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		344A73D58C71E68099F84B73 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D23D8135EA415B7D4485A617 /* Pods-TheQuiteFranklyApp.debug.xcconfig */,
-				1E1ECBA023A680C9BF21891F /* Pods-TheQuiteFranklyApp.release.xcconfig */,
-				0DEBD291C281BDA56C7DAEDF /* Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.debug.xcconfig */,
-				D094F7087CC787E1BD2B3C2C /* Pods-TheQuiteFranklyApp-TheQuiteFranklyAppUITests.release.xcconfig */,
-				8EB56C67491CA25395E1D708 /* Pods-TheQuiteFranklyAppTests.debug.xcconfig */,
-				2BCB1BF0727BC3EAFE328941 /* Pods-TheQuiteFranklyAppTests.release.xcconfig */,
-				BC398C230376944E524C1BC6 /* Pods-QuiteFranklyTests.debug.xcconfig */,
-				8E37EFB375337E580E799440 /* Pods-QuiteFranklyTests.release.xcconfig */,
+				5EB9C5190B4EAF2610E08645 /* Pods-QuiteFranklyTests.debug.xcconfig */,
+				BEFCC6D664BDD3D783E4F214 /* Pods-QuiteFranklyTests.release.xcconfig */,
+				DBBED5491627A9F35E5BDE40 /* Pods-TheQuiteFranklyApp.debug.xcconfig */,
+				3D18E0B3AD84E2C0310881AB /* Pods-TheQuiteFranklyApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -160,8 +159,8 @@
 				D5E91416243112EF00396BA2 /* TheQuiteFranklyAppUITests */,
 				D584ED02243A4D6500A071A0 /* QuiteFranklyTests */,
 				D5E913F3243112EE00396BA2 /* Products */,
-				E208D4174F00FA1DBE1ED11B /* Frameworks */,
 				344A73D58C71E68099F84B73 /* Pods */,
+				204D99B97E807CBAD571900F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,17 +245,6 @@
 			path = Blog;
 			sourceTree = "<group>";
 		};
-		E208D4174F00FA1DBE1ED11B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4CBB684F19725B659B1E0070 /* Pods_TheQuiteFranklyApp.framework */,
-				F9D16C2862892A13B2A81324 /* Pods_TheQuiteFranklyApp_TheQuiteFranklyAppUITests.framework */,
-				53C49FFC54772AB4CFC6C758 /* Pods_TheQuiteFranklyAppTests.framework */,
-				434842DA90B58F80015A67D3 /* Pods_QuiteFranklyTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,7 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D584ED08243A4D6500A071A0 /* Build configuration list for PBXNativeTarget "QuiteFranklyTests" */;
 			buildPhases = (
-				396444BC8AC85006D9946354 /* [CP] Check Pods Manifest.lock */,
+				2CBE3071C5964AB39D63C4E4 /* [CP] Check Pods Manifest.lock */,
 				D584ECFD243A4D6500A071A0 /* Sources */,
 				D584ECFE243A4D6500A071A0 /* Frameworks */,
 				D584ECFF243A4D6500A071A0 /* Resources */,
@@ -283,12 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5E9141C243112EF00396BA2 /* Build configuration list for PBXNativeTarget "TheQuiteFranklyApp" */;
 			buildPhases = (
-				D631F1FB80671BCF4EA1C388 /* [CP] Check Pods Manifest.lock */,
+				F126513C864BD96DA19906B6 /* [CP] Check Pods Manifest.lock */,
 				D5E913EE243112EE00396BA2 /* Sources */,
 				D5E913EF243112EE00396BA2 /* Frameworks */,
 				D5E913F0243112EE00396BA2 /* Resources */,
-				450038EBE0156A470FA8F314 /* [CP] Embed Pods Frameworks */,
-				1AB45BB1F7CBADE3E7EB83F3 /* [CP] Copy Pods Resources */,
+				6525DF69CC5144B68B29B596 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,24 +346,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1AB45BB1F7CBADE3E7EB83F3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		396444BC8AC85006D9946354 /* [CP] Check Pods Manifest.lock */ = {
+		2CBE3071C5964AB39D63C4E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,7 +368,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		450038EBE0156A470FA8F314 /* [CP] Embed Pods Frameworks */ = {
+		6525DF69CC5144B68B29B596 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,7 +385,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheQuiteFranklyApp/Pods-TheQuiteFranklyApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D631F1FB80671BCF4EA1C388 /* [CP] Check Pods Manifest.lock */ = {
+		F126513C864BD96DA19906B6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -495,7 +465,7 @@
 /* Begin XCBuildConfiguration section */
 		D584ED09243A4D6500A071A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC398C230376944E524C1BC6 /* Pods-QuiteFranklyTests.debug.xcconfig */;
+			baseConfigurationReference = 5EB9C5190B4EAF2610E08645 /* Pods-QuiteFranklyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,7 +487,7 @@
 		};
 		D584ED0A243A4D6500A071A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E37EFB375337E580E799440 /* Pods-QuiteFranklyTests.release.xcconfig */;
+			baseConfigurationReference = BEFCC6D664BDD3D783E4F214 /* Pods-QuiteFranklyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -653,7 +623,7 @@
 		};
 		D5E9141D243112EF00396BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D23D8135EA415B7D4485A617 /* Pods-TheQuiteFranklyApp.debug.xcconfig */;
+			baseConfigurationReference = DBBED5491627A9F35E5BDE40 /* Pods-TheQuiteFranklyApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -676,7 +646,7 @@
 		};
 		D5E9141E243112EF00396BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E1ECBA023A680C9BF21891F /* Pods-TheQuiteFranklyApp.release.xcconfig */;
+			baseConfigurationReference = 3D18E0B3AD84E2C0310881AB /* Pods-TheQuiteFranklyApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
