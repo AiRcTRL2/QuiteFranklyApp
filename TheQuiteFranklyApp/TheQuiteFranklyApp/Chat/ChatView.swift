@@ -15,6 +15,8 @@ struct ChatView: View {
     @ObservedObject var chatDataController: ChatDataController = ChatDataController()
     @State var message = ""
     
+    private let player = AVPlayer(url: URL(string: "https://5g9s179kfgx9wn8tqwj9-cul47i.p5cdn.com/dlive/transcode-89-197/ariesjrs/1605933895/src/live.m3u8")!)
+    
     init() {
         UITableView.appearance().separatorStyle = .none
         chatDataController.getYoutubeLiveStream()
@@ -26,20 +28,22 @@ struct ChatView: View {
                 Color("Background")
                 
                 VStack {
-                    GeometryReader { (videoViewSize) in
+//                    GeometryReader { (videoViewSize) in
                         // live stream
-                        YouTubeWebView(url: self.chatDataController.youtubeLink ?? "", screenDimensions: geometry).onTapGesture {
-                        }
+//                        YouTubeWebView(url: self.chatDataController.youtubeLink ?? "", screenDimensions: geometry).onTapGesture {
+//                        }
+//                    }
+                    
+                    if #available(iOS 14.0, *) {
+                        VideoPlayer(player: player)
                     }
-                    
-                    
                     // messages
                     List {
                         ForEach(self.chatDataController.messages, id: \.id) { message in
                                 Text(message.message)
                         }
                     }
-                    
+
                     // search bar
                     TextField("Send a message...", text: self.$message)
                         .padding(.init(top: 5, leading: 20, bottom: 5, trailing: 20))
