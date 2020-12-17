@@ -20,6 +20,13 @@ struct ChatView: View {
     init() {
         UITableView.appearance().separatorStyle = .none
         chatDataController.getYoutubeLiveStream()
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [])
+        }
+        catch {
+            print("Setting category to AVAudioSessionCategoryPlayback failed.")
+        }
     }
     
     var body: some View {
@@ -28,34 +35,18 @@ struct ChatView: View {
                 Color("Background")
                 
                 VStack {
-//                    GeometryReader { (videoViewSize) in
-                        // live stream
-//                        YouTubeWebView(url: self.chatDataController.youtubeLink ?? "", screenDimensions: geometry).onTapGesture {
-//                        }
-//                    }
-                    
                     if #available(iOS 14.0, *) {
                         VideoPlayer(player: player)
                     }
-                    // messages
-                    List {
-                        ForEach(self.chatDataController.messages, id: \.id) { message in
-                                Text(message.message)
-                        }
-                    }
-
-                    // search bar
-                    TextField("Send a message...", text: self.$message)
-                        .padding(.init(top: 5, leading: 20, bottom: 5, trailing: 20))
-                        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.white))
-                        .multilineTextAlignment(.center)
-                        .frame(width: geometry.size.width * 0.9, height: 20, alignment: .bottom)
-                        .overlay(SendButton(delegate: self)
-                        .padding(EdgeInsets(top: 5, leading: 5, bottom: 15, trailing: 8))
-                        .foregroundColor(Color.white), alignment: .trailing)
+                    
+                    
                     
                 }.padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
             }
+        }.onAppear {
+            player.play()
+        }.onDisappear {
+            player.pause()
         }
     }
 
